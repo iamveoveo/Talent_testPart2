@@ -67,12 +67,13 @@ html{
     border-radius: 50px;
     background: #d6432a;
     bottom: -4px;
-    left: 25%;
+    left: 40%;
     text-align: center; 
 }
 
 .menu-middle .menu-item{
     margin: 0px 28px;
+    position: relative;
 }
 
 /* END MENU */
@@ -298,7 +299,7 @@ h2.section-title{
     height: 48px;
     margin: 0px 15px 10px 0px;
     padding: 0px 48px 0px 62px;
-    border: 2px solid #f6f6f9;
+    border: 1px solid #f6f6f9;
     border-radius: 50px;
     font-size: 14px;
     background-color: #f6f6f9;
@@ -319,7 +320,7 @@ h2.section-title{
 .input-search:focus{
     box-shadow: none;
     background-color: #f6f6f9;
-    border: 2px solid #380c3f;
+    border: 1px solid #380c3f;
 }
 
 .jobfilters{
@@ -347,7 +348,7 @@ h2.section-title{
 }
 /* End Jobsearch */
 
-/* Content */
+/* Content Job */
 
 .content {
     margin-top: 5px;
@@ -615,4 +616,485 @@ a.job-title{
     display: inline-block;
     font-size: 12px;
 }
-/* End Content */
+
+/* End Content Job */
+
+/* Section herader calculator */
+
+.section-header-cal{
+    padding-top: 50px;
+    margin-left: 150px;
+}
+
+.section-header-title{
+    font-weight: 600;
+    font-size: 32px;
+    color: #30183f;
+    margin-bottom: 5px;
+    width: 720px;
+}
+
+.section-header-subtitle{
+    font-weight: normal;
+    font-size: 18px;
+    color: #30183f;
+    opacity: 0.9;
+    padding-bottom: 30px;
+}
+
+
+
+.form-cal-img{
+    width: 225px;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 1010px;
+}
+
+.input-salary{
+    background-image: url(../images/input__salary-icon.png);
+}
+
+.select-input{
+    background-image: url(../images/input__dropdown-menu.png);
+    background-position: calc(98% - 0.5rem), 100% 0;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    border-radius: 74px;
+    height: 48px;
+    margin-right: 15px;
+    padding: 0px 24px;
+    font-size: 14px;
+    background-color: #f6f6f9;
+    border: 1px solid #f6f6f9;
+}
+
+.input-region{
+    width: 225px;
+}
+
+.input-time{
+    width: 140px;
+}
+
+label{
+    font-size: 13px;
+    padding-left: 13px;
+}
+
+.section-form{
+    width: 720px;
+    margin-bottom: 30px;
+}
+
+.cal-select{
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card-wrap{
+    background-color: #fff;
+    width: 640px;
+    padding: 23px;
+    border-radius: 8px;
+    color: #676767;
+    margin-top: 25px;
+}
+
+.timeBase-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timeBase-group{
+    display: flex;
+}
+
+.timeBase-select{
+    padding: 8px 11px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 12px;
+    color: #602770;
+}
+
+.timeBase-select.selected{
+    background: rgba(105, 31, 116, 0.1);
+    color: #691f74;
+    font-weight: 600;
+}
+
+.timeBase-label{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: #30183f;
+}
+
+.card-deduction-title{
+    padding-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 1px solid #f6f6f9;
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #30183f;
+    margin-bottom: 18px;
+}
+
+.card-deduction-content{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-deduction-wrap{
+    width: 320px;
+}
+
+.card-deduction{
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-deduction *{
+    font-size: 13px;
+}
+
+.card-deduction-highlight{
+    font-weight: bold;
+    color: #30183f;
+}
+
+.card-deduction-value{
+    color: #30183f;
+}
+
+.card-deduction-highlight-large *{
+    font-size: 16px !important;
+}
+
+.card-line{
+    border-bottom: 1px solid #f6f6f9;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.taxBerg-wrap{
+    background: radial-gradient(77.83% 77.83% at 49.94% 59.95%, rgba(157, 233, 246, 0) 0%, #9DE9F6 100%);
+    position: relative;
+    max-width: 640px;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.taxBerg-title{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #30183F;
+}
+
+.taxBerg-holder{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.taxBerg-frame{
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.taxBerg-dots{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+}
+
+.taxBerg-dash{
+    position: relative;
+    border: 0.6px dashed #ffa500;
+    width: 19%;
+    z-index: 5;
+    height: 0;
+}
+
+.net-dash{
+    top: 163px;
+    left: 30%;
+}
+
+.dots-container{
+    float: right;
+    height: 15px;
+    width: 15PX;
+    border-radius: 45px;
+    margin-top: -8px;
+    position: relative;
+    left: 13px;
+}
+
+.taxBerg_dots{
+    background: #ffa500;
+    height: 7px;
+    width: 7px;
+    position: relative;
+    top: 3px;
+    left: 0;
+    border-radius: 120px;
+}
+
+.taxBerg-text-holder{
+    z-index: 20;
+    position: absolute;
+    text-align: right;
+    width: 140px;
+}
+
+.net-text{
+    bottom: 416px;
+    left: 45px;
+    color: #30183f;
+}
+
+.tax-text{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tax-subtitle{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.emp-dash{
+    border-color: #ffa500;
+    top: 375px;
+    left: 50%;
+}
+
+.emp-text{
+    right: 45px;
+    top: 350px;
+    text-align: left;
+    color: #fff;
+}
+
+.emp-dash .dots-container{
+    border-color: #ffa500;
+    float: left;
+    left: initial;
+    right: 12px;
+}
+
+.taxBerg-ice{
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    height: 300px;
+    left: 25%;
+    bottom: 200px;
+}
+
+.ice-boat{
+    height: 300px;
+    width: 300px;
+}
+
+.taxBerg-holder img{
+    width: inherit;
+}
+
+.taxBerg-water-top{
+    width: 100%;
+    background: linear-gradient(rgb(99, 218, 255), rgb(47, 115, 136));
+    background-blend-mode: multiply;
+    height: 100%;
+    position: absolute;
+    mix-blend-mode: multiply;
+    bottom: 0;
+    background-image: url(../images/water.gif);
+    background-size: contain;
+    background-repeat: round;
+    background-position-y: top;
+}
+
+.taxBerg-water-middle{
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    background: #3cb2ce;
+    mix-blend-mode: multiply;
+    bottom: -25px;
+}
+
+.taxBerg-water-bottom{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    z-index: 0;
+    background: #004260;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.total-tax{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 11px 10px;
+}
+
+.total-tax-text{
+    width: 281px;
+    color: white;
+    padding: 20px;
+}
+
+.total-tax-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.total-tax-number{
+    padding: 0;
+    font-size: 34px;
+    padding-bottom: 6px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.total-tax-infor{
+    line-height: 22px;
+    font-size: 13px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.taxBerg-cloud-left{
+    width: 110px;
+    position: absolute;
+    left: 60px;
+    top: 8px;
+}
+
+.taxBerg-cloud-right{
+    width: 135px;
+    position: absolute;
+    right: 65px;
+    top: 48px;
+}
+
+.card-wrap-top{
+    padding-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 1px solid #f6f6f9;
+}
+
+.card-wrap-bottom{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 0;
+    padding: 24px;
+}
+
+.alsoAsk-link{
+    color: #5a5a5a;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.alsoAsk-link img{
+    height: 14px;
+}
+
+.card-information{
+    font-size: 13px;
+}
+
+.card-income-link{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 32px;
+    color: #691F74;
+    text-decoration: none;
+    width: auto;
+    overflow: hidden;
+}
+
+.card-wrap-income{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    column-count: 5;
+    column-width: auto;
+}
+
+th{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.flag{
+    display: inline-block;
+    height: 12px;
+    width: 16px;
+    background-repeat: no-repeat !important;
+    margin-right: 10px;
+}
+
+.best{
+    background-color: #0DA0BA;
+    color: #fff;
+}
+
+.circle{
+    display: inline-flex;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.least{
+    background-color: #E34B31;
+    color: #fff;
+}
+
+.card-grey{
+    background: #30183f0d;
+    line-height: 22px;
+    font-size: 13px;
+}
+/* End section herader calculator */

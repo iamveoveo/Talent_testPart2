@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/favicon-32x32.png">
+        <title>Cơ hội việc làm trong Việt Nam | Thuê ngay</title>
+    </head>
+    <body>
+
+        <!-- Menu -->
+        <div class="menu d-flex">
+            <div class="menu-left">
+                <a href="index.html">
+                    <img src="images/Talent.com-1000x600-1.jpg" alt="Home image 2" style="width: 107px;height: 62px;">
+                </a>
+            </div>
+            <div class="menu-middle d-flex">
+                <div class="menu-item">
+                    <a href="job.html">Tìm kiếm việc làm</a>
+                </div>
+                <div class="menu-item active">
+                    <a href="calculator.html">Máy tính thuế</a>
+                </div>
+            </div>
+            <div class="menu-right">
+                <div class="menu_item login_btn rounded-pill border">
+                    <a href="#">Đăng nhập</a>
+                </div>
+            </div>
+        </div>
+        <!-- End Menu -->
+
+        <!-- Main -->
+        <div class="section-header">
+            <div class="section-header-cal">
+                <h1 class="section-header-title">Máy tính thuế thu nhập Việt Nam                </h1>
+                <h2 class="section-header-subtitle">Tìm mức lương của bạn sau thuế                </h2>
+            </div>
+        </div>
+        <div class="cal-select">
+            <form action="" class="d-flex align-items-center section-form">
+                <div class="form-input">
+                    <label class="form-label">Nhập tổng thu nhập của bạn</label>
+                    <input class="input-salary form-control input-search" type="text" name="input-salary" style="width: 200px;" value="50000000" autocomplete="off">
+                </div>
+                <div class="form-input">
+                    <label class="form-label">Mỗi</label>
+                    <select name="from" class="input-search select-input form-control input-time">
+                        <option value="year" selected="">Năm</option>
+                        <option value="month">Tháng</option>
+                        <option value="semimonthly">Nửa tháng</option>
+                        <option value="week">Tuần</option>
+                        <option value="day">Ngày</option>
+                        <option value="hour">Giờ</option>
+                    </select>
+                </div>
+                <div class="form-input">
+                    <label class="form-label">Bạn làm ở đâu</label>
+                    <select class="input-search select-input input-region form-control" name="input-region">
+                        <option value="Việt Nam" selected="">Việt Nam</option>
+                    </select>
+                </div>
+                <div class="form-input d-flex">
+                    <button class="signin-btn rounded-pill" style="padding: 0px 18px;height: 48px;margin: 15px 0 0;min-width: 145px;">Tính toán</button>
+                </div>
+            </form>
+            <img class="form-cal-img" src="images/icon__main-header.png" alt="Icon main header">
+        </div>
+        <div style="background-color: #F6F6F9;padding-top: 25px;padding-bottom: 53px;">
+            <div class="content">
+                <section class="section-taxes">
+                    <div class="timeBase">
+                        <div class="timeBase-wrap card-wrap">
+                            <div class="timeBase-label">Mức lương</div>
+                            <div class="timeBase-group">
+                                <div class="timeBase-select selected">Năm</div>
+                                <div class="timeBase-select">Tháng</div>
+                                <div class="timeBase-select">Nửa Tháng</div>
+                                <div class="timeBase-select">Tuần</div>
+                                <div class="timeBase-select">Ngày</div>
+                                <div class="timeBase-select">Giờ</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deduction-piechart">
+                        <div class="card-deduction-title card-wrap">
+                            <div class="card-title">Khấu trừ</div>
+                        </div>
+                        <div class="card-deduction-content card-wrap">
+                            <div class="card-deduction-wrap">
+                                <div class="card-deduction card-deduction-highlight">
+                                    <div class="card-deduction-label">Lương</div>
+                                    <div class="card-deduction-value">50,000,000 ₫</div>
+                                </div>
+                                <div class="card-deduction">
+                                    <div class="card-deduction-label">An ninh xã hội</div>
+                                    <div class="card-deduction-value">- 4,000,000₫</div>
+                                </div>
+                                <div class="card-deduction">
+                                    <div class="card-deduction-label">Bảo hiểm xã hội</div>
+                                    <div class="card-deduction-value">- 750,000 ₫</div>
+                                </div>
+                                <div class="card-deduction">
+                                    <div class="card-deduction-label">Bảo hiểm thất nghiệp</div>
+                                    <div class="card-deduction-value">- 500,000 ₫</div>
+                                </div>
+                                <div class="card-deduction">
+                                    <div class="card-deduction-label">Thuế thu nhập</div>
+                                    <div class="card-deduction-value">- 2,237,500 ₫</div>
+                                </div>
+                                <div class="card-line"></div>
+                                <div class="card-deduction card-deduction-highlight">
+                                    <div class="card-deduction-label">Tổng số thuế</div>
+                                    <div class="card-deduction-value">- 7,487,500 ₫</div>
+                                </div>
+                                <div class="card-deduction card-deduction-highlight card-deduction-highlight-large">
+                                    <div class="card-deduction-label">Trả bằng tiền mặt</div>
+                                    <div class="card-deduction-value">* 42,512,500</div>
+                                </div>
+                                <div class="card-line"></div>
+                                <div class="card-deduction">
+                                    <div class="card-deduction-label">Thuế suất cận biên</div>
+                                    <div class="card-deduction-value">15.0%</div>
+                                </div>
+                                <div class="card-deduction">
+                                    <div class="card-deduction-label">Thuế suất trung bình</div>
+                                    <div class="card-deduction-value">15.0%</div>
+                                </div>
+                            </div>
+                            <div class="card-pieChart">
+                                <canvas id="pieChart" width="220px" height="220px"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-taxBerg">
+                    <div class="taxBerg-wrap">
+                        <div class="taxBerg-title">Taxberg</div>
+                        <div class="taxBerg-holder">
+                            <div class="taxBerg-cloud-left">
+                                <img src="images/cloud_left.png" alt="cloud left">
+                            </div>
+                            <div class="taxBerg-cloud-right">
+                                <img src="images/cloud_right.png" alt="cloud right">
+                            </div>
+                            <div class="taxBerg-frame">
+                                <div class="taxBerg-dots">
+                                    <div class="taxBerg-dash net-dash">
+                                        <div class="dots-container">
+                                            <div class="taxBerg_dots"></div>
+                                        </div>
+                                    </div>
+                                    <div class="taxBerg-text-holder net-text">
+                                        <div class="tax-text">42,512,500 ₫</div>
+                                        <div class="tax-subtitle">Trả bằng tiền mặt</div>
+                                    </div>
+                                    <div class="taxBerg-dash emp-dash">
+                                        <div class="dots-container">
+                                            <div class="taxBerg_dots" style="left: 3px;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="taxBerg-text-holder emp-text">
+                                        <div class="tax-text">10,750,000 ₫</div>
+                                        <div class="tax-subtitle">Thuế mà người sử dụng lao động trả</div>
+                                    </div>
+                                </div>
+                                <div class="taxBerg-ice">
+                                    <div class="ice-boat">
+                                        <img src="images/iceberg.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="taxBerg-water-top"></div>
+                                <div class="taxBerg-water-middle"></div>
+                            </div>
+                            <div class="taxBerg-water-bottom"></div>
+                            <div class="total-tax">
+                                <div class="total-tax-text">
+                                    <div class="total-tax-title">Tổng số tiền thuế đã trả</div>
+                                    <div class="total-tax-number">18,237,500 ₫</div>
+                                    <div class="total-tax-infor">Bạn có biết chủ lao động của bạn cũng đóng thuế trên lương của bạn không? Để trả bạn 50,000,000 ₫, chủ lao động phải mất 10,750,000 ₫. Nói cách khác, mỗi khi bạn tiêu 10 ₫ từ số tiền bạn vất vả kiếm được, 3.65 ₫ được đóng cho chính phủ.</div>
+                                </div>
+                                <div class="total-tax-text">
+                                    <div class="total-tax-title">Thuế suất thực</div>
+                                    <div class="total-tax-number">30.0%</div>
+                                    <div class="total-tax-infor">Vì vậy, khi bạn và chủ lao động đều đóng thuế, mức thuế suất cũ 15% giờ tăng lên 30.0%, có nghĩa là mức thuế suất thực của bạn cao hơn mức thuế suất ban đầu 15%.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-alsoAsk">
+                    <div class="card-wrap card-wrap-top">
+                        <div class="card-title">Mọi người cũng yêu cầu</div>
+                    </div>
+                    <div class="card-wrap card-wrap-bottom">
+                        <a href="#" class="alsoAsk-link">50,000,000 ₫ một năm là bao nhiêu mỗi giờ? <span><img src="images/arrow_right.png" alt=""></span></a>
+                        <div class="card-line"></div>
+                        <a href="#" class="alsoAsk-link">24,038 ₫ một giờ là bao nhiêu mỗi năm? <span><img src="images/arrow_right.png" alt=""></span></a>
+                    </div>
+                </section>
+                <section class="section-information">
+                    <div class="card-wrap">
+                        <div class="card-title">Tổng cộng</div>
+                        <div class="card-line"></div>
+                        <div class="card-information" style="margin-bottom: 45px;">
+                            Nếu bạn kiếm được <b>50,000,000 ₫</b> một năm khi sống ở <b>Việt Nam</b>, bạn sẽ phải đóng thuế <b> 7,487,500 ₫</b>. Điều đó có nghĩa lương ròng của bạn sẽ là <b>42,512,500 ₫</b> mỗi năm, hoặc <b>3,542,708 ₫</b> mỗi tháng. Mức thuế suất trung bình của bạn là <b>15.0%</b> và mức thuế suất cận biên của bạn là <b>15.0%</b>. Mức thuế suất cận biên này có nghĩa là thu nhập gia tăng tiếp theo của bạn sẽ bị tính thuế ở mức thuế suất này. Ví dụ, nếu lương của bạn tăng <b>100 ₫</b>, phần gia tăng này sẽ bị tính thuế <b>14.98 ₫</b>, vì vậy, lương ròng của bạn sẽ chỉ tăng <b>85.02 ₫</b>.                     </div>
+                        <div class="card-title">Ví dụ về thưởng</div>
+                        <div class="card-line"></div>
+                        <div class="card-information">
+                            Phần thưởng <b>1,000 ₫</b> sẽ tạo thêm <b>850 ₫</b> cho thu nhập ròng. Phần thưởng <b>5,000 ₫</b> sẽ tạo thêm <b>4,251 ₫</b> cho thu nhập ròng.                    </div>
+                    </div>
+                </section>
+                <section class="compareChart">
+                    <div class="card-wrap card-wrap-top">
+                        <div class="card-title">So sánh thuế trung bình</div>
+                    </div>
+                    <div class="card-wrap card-wrap-bottom">
+                        <canvas id="compareChart"></canvas>
+                    </div>
+                </section>
+                <section class="section-tax-per-income">
+                    <div class="card-wrap card-wrap-top">
+                        <div class="card-title">Thuế thu nhập</div>
+                    </div>
+                    <div class="card-wrap card-wrap-bottom">
+                        <div class="card-wrap-income">
+                            <a href="#" class="card-income-link">100,000 ₫</a>
+                            <a href="#" class="card-income-link">200,000 ₫</a>
+                            <a href="#" class="card-income-link">300,000 ₫</a>
+                            <a href="#" class="card-income-link">400,000 ₫</a>
+                            <a href="#" class="card-income-link">500,000 ₫</a>
+                            <a href="#" class="card-income-link">600,000 ₫</a>
+                            <a href="#" class="card-income-link">700,000 ₫</a>
+                            <a href="#" class="card-income-link">800,000 ₫</a>
+                            <a href="#" class="card-income-link">900,000 ₫</a>
+                            <a href="#" class="card-income-link">1,000,000 ₫</a>
+                            <a href="#" class="card-income-link">1,100,000 ₫</a>
+                            <a href="#" class="card-income-link">1,200,000 ₫</a>
+                            <a href="#" class="card-income-link">1,300,000 ₫</a>
+                            <a href="#" class="card-income-link">1,400,000 ₫</a>
+                            <a href="#" class="card-income-link">1,500,000 ₫</a>
+                            <a href="#" class="card-income-link">1,600,000 ₫</a>
+                            <a href="#" class="card-income-link">1,700,000 ₫</a>
+                            <a href="#" class="card-income-link">1,800,000 ₫</a>
+                            <a href="#" class="card-income-link">1,900,000 ₫</a>
+                            <a href="#" class="card-income-link">2,000,000 ₫</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-best-of-countries">
+                    <div class="card-wrap card-wrap-top">
+                        <div class="card-title">Châu Âu</div>
+                    </div>
+                    <div class="card-wrap card-wrap-bottom">
+                        <table class="table table-hover table-borderless">
+                            <thead>
+                              <tr>
+                                <th scope="col">Quốc gia</th>
+                                <th scope="col">Net Pay</th>
+                                <th scope="col">Thuế Trung Bình</th>
+                                <th scope="col">Cấp</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><span class="flag" style="background-image: url(images/ie.png);"></span>Ai Len</td>
+                                <td>VND 92047419</td>
+                                <td>-84.1%</td>
+                                <td><span class="circle best">1</span></td>
+                              </tr>
+                              <tr>
+                                <td><span class="flag" style="background-image: url(images/gb.png);"></span>Vương quốc Anh</td>
+                                <td>VND 49999879</td>
+                                <td>0.0%</td>
+                                <td><span class="circle">2</span></td>
+                              </tr>
+                              <tr>
+                                <td><span class="flag" style="background-image: url(images/de.png);"></span>Đức</td>
+                                <td>VND 49999878</td>
+                                <td>0.0%</td>
+                                <td><span class="circle">3</span></td>
+                              </tr>
+                              <tr>
+                                <td><span class="flag" style="background-image: url(images/es.png);"></span>Tây Ban Nha</td>
+                                <td>VND 49999878</td>
+                                <td>0.0%</td>
+                                <td><span class="circle">4</span></td>
+                              </tr>
+                              <tr>
+                                <td><span class="flag" style="background-image: url(images/at.png);"></span>Áo</td>
+                                <td>VND 49999878</td>
+                                <td>0.0%</td>
+                                <td><span class="circle">5</span></td>
+                              </tr>
+                              <tr>
+                                <td><span class="flag" style="background-image: url(images/ro.png);"></span>Romania</td>
+                                <td>VND 29249961</td>
+                                <td>41.5%</td>
+                                <td><span class="circle least">6</span></td>
+                              </tr>
+                            </tbody>
+                        </table>                          
+                    </div>
+                </section>
+                <section class="section-note">
+                    <div class="card-wrap card-grey">
+                        LƯU Ý *Khấu trừ được tính dựa trên các bảng  của Việt Nam, thuế thu nhập. Để đơn giản hóa, một số biến số (như tình trạng hôn nhân và các biến khác) đã được giả định. Tài liệu này không đại diện cho thẩm quyền pháp lý và sẽ chỉ được sử dụng cho mục đích gần đúng.
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- End Main -->
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="row">
+                <div class="col-4">
+                    <div class="footer-title">Dành cho người tìm việc</div>
+                    <div class="footer-link">
+                        <a href="#">Tìm việc làm</a>
+                        <a href="#">Máy tính thuế</a>
+                        <a href="#">Công cụ chuyển đổi tiền lương</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="footer-title">Talent.com</div>
+                    <div class="footer-link">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Các quốc gia khác</a>
+                        <a href="#">Điều khoản dịch vụ và chính sách bảo mật</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex flex-column">
+                        <img src="images/icon-talent-t-logo.png" alt="Footer logo">
+                        <div class="copyright">© 2021 Talent.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.1/chart.min.js" integrity="sha512-O2fWHvFel3xjQSi9FyzKXWLTvnom+lOYR/AUEThL/fbP4hv1Lo5LCFCGuTXBRyKC4K4DJldg5kxptkgXAzUpvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/chart.js"></script>
+    </body>
+</html>
