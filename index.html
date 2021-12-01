@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="images/favicon-32x32.png">
     <title>Talent.com Tìm kiếm việc làm | Tìm việc làm gần bạn!</title>
   </head>
@@ -26,7 +27,7 @@
             </div>
         </div>
         <div class="menu-right">
-            <div class="menu_item login_btn rounded-pill border">
+            <div class="menu_item login_btn rounded-pill border" data-bs-toggle="modal" data-bs-target="#login-form">
                 <a href="#">Đăng nhập</a>
             </div>
         </div>
@@ -37,10 +38,10 @@
     <div class="main">
         <section class="section-header">
             <div class="row">
-                <div class="col-6 position-relative">
+                <div class="col-12 col-lg-6 position-relative img-header">
                     <img src="images/img-home-1.png" alt="Photo">
-                </div>
-                <div class="col-6 main-title">
+                </div>  
+                <div class="col-12 col-lg-6 main-title">
                     <h1 class="section-title">Kết nối tìm việc làm trên khắp thế giới</h1>
                     <p>Hãy để chúng tôi giúp bạn tìm cơ hội lớn tiếp theo</p>
                     <button class="signin-btn rounded-pill">Đăng nhập</button>
@@ -50,26 +51,26 @@
         </section>
         <section class="section-seo">
             <div class="col-12">
-                <h3 class="section-title" style="padding: 16px 0 16px;">
+                <h3 class="section-title" id="discovery-talent" style="padding: 16px 0 16px;">
                     Khám phá Talent.com
                     <span class="arrow"></span>
                 </h3>
             </div>
-            <div class="col-12 hidden-section">
+            <div class="col-12 hidden hidden-section">
                 <div class="row" style="max-width: 1100px;margin: 10px auto;">
-                    <div class="col-3">
+                    <div class="col-12 col-lg-3 text-center mb-2">
                         <h4>Tìm bằng từ khóa
                         <span class="arrow"></span></h4>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-lg-3 text-center mb-2">
                         <h4>Tìm theo địa điểm
                         <span class="arrow"></span></h4>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-lg-3 text-center mb-2">
                         <h4>Công cụ chuyển đổi tiền lương
                         <span class="arrow"></span></h4>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-lg-3 text-center mb-2">
                         <h4>Máy tính thuế
                         <span class="arrow"></span></h4>
                     </div>
@@ -83,42 +84,42 @@
         </section>
         <section class="section-job-search">
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                     <div class="col-alignment">
                         <h3 class="section-title justify-content-start w-75" style="margin-bottom: 20px;">Tìm việc làm</h3>
                         <p class="w-75">Tìm cơ hội việc làm tiếp theo trên trang tìm kiếm của chúng tôi hoặc đăng ký nhận thư thông báo việc làm phù hợp để tiết kiệm thời gian.</p>
-                        <button class="signup-btn rounded-pill ms-0" style="min-width: 200px;padding: 12px 18px;">Tìm hiểu thêm</button>
+                        <button class="signup-btn more-btn rounded-pill ms-0" style="min-width: 200px;padding: 12px 18px;">Tìm hiểu thêm</button>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                     <img class="image-" src="images/img-home-2.png" alt="Home iamge 2">
                 </div>
             </div>
         </section>
         <section class="section-calculate-pay">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6">
                     <img class="image-" src="images/img-home-4.png" alt="Home iamge 4">
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6">
                     <div class="col-alignment">
                         <h3 class="section-title justify-content-start w-75" style="margin-bottom: 20px;">Công cụ tính lương net.</h3>
                         <p class="w-75">Công cụ tính thuế tương tác của chúng tôi cho kết quả mức thuế bạn dự tính phải nộp ở khu vực của mình.</p>
-                        <button class="signup-btn rounded-pill border ms-0" style="min-width: 200px;padding: 12px 18px;">Tìm hiểu thêm</button>
+                        <button class="signup-btn more-btn rounded-pill border ms-0" style="min-width: 200px;padding: 12px 18px;">Tìm hiểu thêm</button>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section-convert-salary">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6">
                     <div class="col-alignment">
                         <h3 class="section-title justify-content-start w-75" style="margin-bottom: 20px;">Xem cơ cấu tiền lương của bạn</h3>
                         <p class="w-75">Hiểu rõ hơn tiền lương của bạn bằng cách chuyển đổi giữa thu nhập hàng giờ, hàng tháng và hàng năm.</p>
-                        <button class="signup-btn rounded-pill border ms-0" style="min-width: 200px;padding: 12px 18px;">Tìm hiểu thêm</button>
+                        <button class="signup-btn more-btn rounded-pill border ms-0" style="min-width: 200px;padding: 12px 18px;">Tìm hiểu thêm</button>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6">
                     <img class="image-" src="images/img-home-5.png" alt="Home iamge 5">
                 </div>
             </div>
@@ -139,7 +140,7 @@
     <!-- Footer -->
     <div class="footer">
         <div class="row">
-            <div class="col-4">
+            <div class="col-10 col-lg-4">
                 <div class="footer-title">Dành cho người tìm việc</div>
                 <div class="footer-link">
                     <a href="#">Tìm việc làm</a>
@@ -147,7 +148,7 @@
                     <a href="#">Công cụ chuyển đổi tiền lương</a>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-10 col-lg-4">
                 <div class="footer-title">Talent.com</div>
                 <div class="footer-link">
                     <a href="#">Liên hệ</a>
@@ -155,7 +156,7 @@
                     <a href="#">Điều khoản dịch vụ và chính sách bảo mật</a>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-lg-4">
                 <div class="d-flex flex-column">
                     <img src="images/icon-talent-t-logo.png" alt="Footer logo">
                     <div class="copyright">© 2021 Talent.com</div>
@@ -164,6 +165,55 @@
         </div>
     </div>
     <!-- End Footer -->
+
+    <!-- Modal Login -->
+    <div class="modal" id="login-form" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="login-form-header">
+                        <div class="login-header">
+                            <div class="login-title">Nhập email của bạn</div>
+                            <div class="login-snippet">Tiếp tục với tài khoản Talent.com hoặc chúng tôi sẽ giúp bạn tạo một tài khoản</div>
+                        </div>
+                        <div class="close-btn" data-bs-dismiss="modal"></div>
+                    </div>
+                    <form action="" id="login-form">
+                        <a href="#">
+                            <button type="button" class="btn-ezlogin btn-linkedIn">
+                                Đăng nhập bằng LinkedIn
+                            </button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn-ezlogin btn-google">
+                                Đăng nhập bằng Google
+                            </button>
+                        </a>
+                        <div class="Login-options">
+                            <div class="option-border"></div>
+                            <div class="option-text">Hoặc</div>
+                            <div class="option-border"></div>
+                        </div>
+                        <div class="input-wrap">
+                            <label class="form-label">Địa chỉ email</label>
+                            <input type="email" class="form-control input-search" name="input-email" placeholder="Nhập email của bạn">
+                        </div>
+                        <button class="signin-btn counti-btn rounded-pill" type="button">tiếp tục</button>
+                        <div class="disclaimer-wrap">
+                            <div class="disclaimer">
+                                Bằng cách tiếp tục, tôi cung cấp cho Talent.com sự đồng ý của tôi để xử lý dữ liệu của tôi và gửi cho tôi cảnh báo, như chi tiết trong Talent.com của <a href="#">Điều khoản dịch vụ</a> và <a href="#">Chính sách bảo mật</a>. Tôi có thể rút lại sự đồng ý hoặc hủy bỏ đăng ký của tôi bất cứ lúc nào.
+                            </div>
+                        </div>
+                        <div class="skip-btn"  data-bs-dismiss="modal">Nhảy</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Login -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/javascript.js"></script>
   </body>
 </html>

@@ -6,6 +6,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
         <link rel="icon" href="images/favicon-32x32.png">
         <title>Cơ hội việc làm trong Việt Nam | Thuê ngay</title>
     </head>
@@ -27,7 +28,7 @@
                 </div>
             </div>
             <div class="menu-right">
-                <div class="menu_item login_btn rounded-pill border">
+                <div class="menu_item login_btn rounded-pill border" data-bs-toggle="modal" data-bs-target="#login-form">
                     <a href="#">Đăng nhập</a>
                 </div>
             </div>
@@ -42,12 +43,12 @@
             </div>
         </div>
         <div class="cal-select">
-            <form action="" class="d-flex align-items-center section-form">
-                <div class="form-input">
+            <form action="" class="row align-items-center section-form">
+                <div class="col-7 col-lg-4 form-input">
                     <label class="form-label">Nhập tổng thu nhập của bạn</label>
                     <input class="input-salary form-control input-search" type="text" name="input-salary" style="width: 200px;" value="50000000" autocomplete="off">
                 </div>
-                <div class="form-input">
+                <div class="col-5 col-lg-3 form-input">
                     <label class="form-label">Mỗi</label>
                     <select name="from" class="input-search select-input form-control input-time">
                         <option value="year" selected="">Năm</option>
@@ -58,13 +59,13 @@
                         <option value="hour">Giờ</option>
                     </select>
                 </div>
-                <div class="form-input">
+                <div class="col-7 col-lg-4 form-input">
                     <label class="form-label">Bạn làm ở đâu</label>
                     <select class="input-search select-input input-region form-control" name="input-region">
                         <option value="Việt Nam" selected="">Việt Nam</option>
                     </select>
                 </div>
-                <div class="form-input d-flex">
+                <div class="col-4 col-lg-1 form-input d-flex">
                     <button class="signin-btn rounded-pill" style="padding: 0px 18px;height: 48px;margin: 15px 0 0;min-width: 145px;">Tính toán</button>
                 </div>
             </form>
@@ -228,26 +229,26 @@
                     </div>
                     <div class="card-wrap card-wrap-bottom">
                         <div class="card-wrap-income">
-                            <a href="#" class="card-income-link">100,000 ₫</a>
-                            <a href="#" class="card-income-link">200,000 ₫</a>
-                            <a href="#" class="card-income-link">300,000 ₫</a>
-                            <a href="#" class="card-income-link">400,000 ₫</a>
-                            <a href="#" class="card-income-link">500,000 ₫</a>
-                            <a href="#" class="card-income-link">600,000 ₫</a>
-                            <a href="#" class="card-income-link">700,000 ₫</a>
-                            <a href="#" class="card-income-link">800,000 ₫</a>
-                            <a href="#" class="card-income-link">900,000 ₫</a>
-                            <a href="#" class="card-income-link">1,000,000 ₫</a>
-                            <a href="#" class="card-income-link">1,100,000 ₫</a>
-                            <a href="#" class="card-income-link">1,200,000 ₫</a>
-                            <a href="#" class="card-income-link">1,300,000 ₫</a>
-                            <a href="#" class="card-income-link">1,400,000 ₫</a>
-                            <a href="#" class="card-income-link">1,500,000 ₫</a>
-                            <a href="#" class="card-income-link">1,600,000 ₫</a>
-                            <a href="#" class="card-income-link">1,700,000 ₫</a>
-                            <a href="#" class="card-income-link">1,800,000 ₫</a>
-                            <a href="#" class="card-income-link">1,900,000 ₫</a>
-                            <a href="#" class="card-income-link">2,000,000 ₫</a>
+                            <a href="#" class="card-income-link"><div>100,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>200,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>300,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>400,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>500,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>600,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>700,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>800,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>900,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>1,000,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>1,100,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>1,200,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>1,300,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>1,400,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>1,500,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>1,600,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>1,700,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>1,800,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>1,900,000 ₫</div></a>
+                            <a href="#" class="card-income-link"><div>2,000,000 ₫</div></a>
                         </div>
                     </div>
                 </section>
@@ -278,13 +279,13 @@
                                 <td>0.0%</td>
                                 <td><span class="circle">2</span></td>
                               </tr>
-                              <tr>
+                              <tr class="hidden">
                                 <td><span class="flag" style="background-image: url(images/de.png);"></span>Đức</td>
                                 <td>VND 49999878</td>
                                 <td>0.0%</td>
                                 <td><span class="circle">3</span></td>
                               </tr>
-                              <tr>
+                              <tr class="hidden">
                                 <td><span class="flag" style="background-image: url(images/es.png);"></span>Tây Ban Nha</td>
                                 <td>VND 49999878</td>
                                 <td>0.0%</td>
@@ -303,7 +304,68 @@
                                 <td><span class="circle least">6</span></td>
                               </tr>
                             </tbody>
-                        </table>                          
+                        </table>    
+                        <div class="show-more">
+                            <div class="btn-show-more">Hiển thị thêm</div>
+                        </div>                      
+                    </div>
+                </section>
+                <section class="section-best-of-countries">
+                    <div class="card-wrap card-wrap-top">
+                        <div class="card-title">Châu Âu</div>
+                    </div>
+                    <div class="card-wrap card-wrap-bottom">
+                        <table class="table table-hover table-borderless">
+                            <thead>
+                              <tr>
+                                <th scope="col">Quốc gia</th>
+                                <th scope="col">Net Pay</th>
+                                <th scope="col">Thuế Trung Bình</th>
+                                <th scope="col">Cấp</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><span class="flag" style="background-image: url(images/ie.png);"></span>Ai Len</td>
+                                <td>VND 92047419</td>
+                                <td>-84.1%</td>
+                                <td><span class="circle best">1</span></td>
+                              </tr>
+                              <tr>
+                                <td><span class="flag" style="background-image: url(images/gb.png);"></span>Vương quốc Anh</td>
+                                <td>VND 49999879</td>
+                                <td>0.0%</td>
+                                <td><span class="circle">2</span></td>
+                              </tr>
+                              <tr class="hidden">
+                                <td><span class="flag" style="background-image: url(images/de.png);"></span>Đức</td>
+                                <td>VND 49999878</td>
+                                <td>0.0%</td>
+                                <td><span class="circle">3</span></td>
+                              </tr>
+                              <tr class="hidden">
+                                <td><span class="flag" style="background-image: url(images/es.png);"></span>Tây Ban Nha</td>
+                                <td>VND 49999878</td>
+                                <td>0.0%</td>
+                                <td><span class="circle">4</span></td>
+                              </tr>
+                              <tr>
+                                <td><span class="flag" style="background-image: url(images/at.png);"></span>Áo</td>
+                                <td>VND 49999878</td>
+                                <td>0.0%</td>
+                                <td><span class="circle">5</span></td>
+                              </tr>
+                              <tr>
+                                <td><span class="flag" style="background-image: url(images/ro.png);"></span>Romania</td>
+                                <td>VND 29249961</td>
+                                <td>41.5%</td>
+                                <td><span class="circle least">6</span></td>
+                              </tr>
+                            </tbody>
+                        </table>    
+                        <div class="show-more">
+                            <div class="btn-show-more">Hiển thị thêm</div>
+                        </div>                      
                     </div>
                 </section>
                 <section class="section-note">
@@ -318,7 +380,7 @@
         <!-- Footer -->
         <div class="footer">
             <div class="row">
-                <div class="col-4">
+                <div class="col-10 col-lg-4">
                     <div class="footer-title">Dành cho người tìm việc</div>
                     <div class="footer-link">
                         <a href="#">Tìm việc làm</a>
@@ -326,7 +388,7 @@
                         <a href="#">Công cụ chuyển đổi tiền lương</a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-10 col-lg-4">
                     <div class="footer-title">Talent.com</div>
                     <div class="footer-link">
                         <a href="#">Liên hệ</a>
@@ -334,7 +396,7 @@
                         <a href="#">Điều khoản dịch vụ và chính sách bảo mật</a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="d-flex flex-column">
                         <img src="images/icon-talent-t-logo.png" alt="Footer logo">
                         <div class="copyright">© 2021 Talent.com</div>
@@ -343,9 +405,10 @@
             </div>
         </div>
         <!-- End Footer -->
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.1/chart.min.js" integrity="sha512-O2fWHvFel3xjQSi9FyzKXWLTvnom+lOYR/AUEThL/fbP4hv1Lo5LCFCGuTXBRyKC4K4DJldg5kxptkgXAzUpvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="js/chart.js"></script>
+        <script src="js/javascript.js"></script>
     </body>
 </html>
